@@ -1,0 +1,23 @@
+{
+    "status": "success",
+    "data": {
+      "id": 12345,
+      "name": "Random API Generator",
+      "description": "This API generates random data for demonstration purposes.",
+      "endpoints": [
+        {
+          "url": "https://api.example.com/random",
+          "method": "GET",
+          "description": "Get a random item"
+        },
+        {
+          "url": "https://api.example.com/random/{id}",
+          "method": "GET",
+          "description": "Get details of a specific random item"
+        }
+      ],
+      "documentation": "https://api.example.com/docs",
+      "version": "1.0.0"
+    }
+  }
+  
