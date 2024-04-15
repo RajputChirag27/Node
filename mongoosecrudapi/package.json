@@ -1,15 +1,19 @@
 {
-  "name": "mongodbcrud",
+  "name": "mongoosecrudapi",
   "version": "1.0.0",
+  "description": "Crud with Api using Mongoose",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "Crud",
+    "API"
+  ],
   "author": "Chirag",
   "license": "ISC",
-  "description": "MongoDb tutorial",
   "dependencies": {
     "express": "^4.19.2",
-    "mongodb": "^6.5.0"
+    "mongoose": "^8.3.1"
   }
 }
